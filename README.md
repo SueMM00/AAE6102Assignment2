@@ -113,3 +113,19 @@ Each GNSS technique evaluated in this report presents unique trade-offs in terms
 As dual-frequency GNSS chipsets and cloud-based correction services become more common in smartphones, **PPP-RTK is likely to emerge as the most viable high-precision GNSS solution** for mobile platforms in the near future.
 
 ---
+
+Model: Self-created ChatGPT 4o: Subu
+Prompt:
+"Write a short essay (500–1000 words) comparing the pros and cons for the following GNSS techniques: Differential GNSS (DGNSS), Real-Time Kinematic (RTK), Precise Point Positioning (PPP), and PPP-RTK for smartphone navigation."
+
+"Give more details on the method and explain why they have such pros and cons."
+
+"Make it to a short essay that clearly compares those GNSS techniques with pros and cons and reasons."
+
+"Make it into readme.md format."
+
+"Make the content more like an easily read essay."
+
+"Make it more academic."
+Comment (the reason for using this model): It’s great for reasoning and answering questions.
+Chatroom link (if any): https://chatgpt.com/share/e/68021efb-3e70-800a-85ba-f346b4b6e3e2
