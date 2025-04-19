@@ -1,4 +1,9 @@
 # AAE6102Assignment2
+
+# Project Tasks Overview
+
+This repository contains MATLAB implementations supporting advanced navigation and data filtering processes. The primary components include sky region masking and weighted position estimation integrated with integrity monitoring.
+
 # Task 1: A Comparative Analysis of GNSS Techniques for Smartphone Navigation
 
 Global Navigation Satellite Systems (GNSS) have become integral to modern smartphone-based navigation. While standard GNSS provides positioning with an accuracy of approximately 5–10 meters, the demands of emerging applications—such as augmented reality, autonomous vehicles, and lane-level navigation—require significantly higher precision. 
@@ -132,46 +137,10 @@ Prompt:
 Comment (the reason for using this model): It’s great for reasoning and answering questions.
 Chatroom link (if any): https://chatgpt.com/share/e/68021efb-3e70-800a-85ba-f346b4b6e3e2
 
-
-# Project Tasks Overview
-
-This repository contains the implementation of key tasks related to image filtering and positioning algorithms.
-
 ---
 
-## 🧪 Task 2: Sky Mask Filtering
 
-- **File:** `applySkymaskFilter.m`  
-- **Description:**  
-  Implements the functionality for applying a **sky mask filter**. This process typically isolates the sky region in the provided dataset and applies specific filtering techniques to that region for enhancement or analysis.
-
-- **Key Features:**
-  - Detection or segmentation of sky regions
-  - Custom filtering operations on the sky portion of images
-
----
-
-## 📍 Task 3: Weighted Least Squares (WLS) Positioning
-
-- **File:** `WLSPos.m`  
-- **Description:**  
-  Implements a **Weighted Least Squares (WLS)** algorithm to compute optimized positional estimates. This method is designed to minimize error by assigning weights to different measurements, making it suitable for noisy or uncertain datasets.
-
-- **Key Features:**
-  - Weighted optimization for robust estimation
-  - Applicable to positioning, localization, and sensor fusion
-  - Suitable for real-time or post-processed data
-
-
----
-
-# Project Tasks Overview
-
-This repository contains MATLAB implementations supporting advanced navigation and data filtering processes. The primary components include sky region masking and weighted position estimation integrated with integrity monitoring.
-
----
-
-## Task 2: Sky Mask Filtering
+# Task 2: Sky Mask Filtering
 
 - **File:** `applySkymaskFilter.m`  
 - **Function:** `applySkymaskFilter`  
@@ -187,7 +156,7 @@ This repository contains MATLAB implementations supporting advanced navigation a
 
 ---
 
-## Task 3: Weighted Least Squares (WLS) Positioning & RAIM Integration
+# Task 3: Weighted Least Squares (WLS) Positioning & RAIM Integration
 
 - **File:** `WLSPos.m`  
 - **Functionality:**
