@@ -114,6 +114,8 @@ As dual-frequency GNSS chipsets and cloud-based correction services become more 
 
 ---
 
+##  Use of AI
+
 Model: Self-created ChatGPT 4o: Subu
 Prompt:
 "Write a short essay (500–1000 words) comparing the pros and cons for the following GNSS techniques: Differential GNSS (DGNSS), Real-Time Kinematic (RTK), Precise Point Positioning (PPP), and PPP-RTK for smartphone navigation."
@@ -185,6 +187,8 @@ Low Earth Orbit (LEO) satellites have become a staple in communication systems, 
 
 While LEO satellites offer significant advantages in communication, their application in GNSS navigation is hindered by several challenges. Overcoming these challenges will require innovative solutions in satellite design, signal processing, and receiver technology to fully utilize the potential of LEO satellites for navigation purposes.
 
+##  Use of AI
+
 Model: Doubao
 Prompt:
 "Low Earth Orbit (LEO) satellites are widely used for communication purposes but present unique challenges when utilized for navigation. Write a short essay (500–1000 words) discussing: The difficulties and challenges of using LEO communication satellites for GNSS navigation."
@@ -243,6 +247,8 @@ The ionosphere, which is affected by solar activity, can cause disruptions to ra
 ### Atmospheric Research
 
 GNSS-RO data contributes to a wide range of atmospheric research topics. It helps in studying the dynamics of the atmosphere, such as the movement of air masses, the formation of jets, and the development of atmospheric waves. Additionally, by analyzing the changes in the refractive index of the atmosphere measured by GNSS-RO, scientists can investigate the distribution and behavior of trace gases, which are important for understanding air quality and the Earth's climate - chemical processes.
+
+##  Use of AI
 
 Model: Doubao
 Prompt:
