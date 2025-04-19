@@ -133,6 +133,76 @@ Comment (the reason for using this model): It’s great for reasoning and answer
 Chatroom link (if any): https://chatgpt.com/share/e/68021efb-3e70-800a-85ba-f346b4b6e3e2
 
 
+# Project Tasks Overview
+
+This repository contains the implementation of key tasks related to image filtering and positioning algorithms.
+
+---
+
+## 🧪 Task 2: Sky Mask Filtering
+
+- **File:** `applySkymaskFilter.m`  
+- **Description:**  
+  Implements the functionality for applying a **sky mask filter**. This process typically isolates the sky region in the provided dataset and applies specific filtering techniques to that region for enhancement or analysis.
+
+- **Key Features:**
+  - Detection or segmentation of sky regions
+  - Custom filtering operations on the sky portion of images
+
+---
+
+## 📍 Task 3: Weighted Least Squares (WLS) Positioning
+
+- **File:** `WLSPos.m`  
+- **Description:**  
+  Implements a **Weighted Least Squares (WLS)** algorithm to compute optimized positional estimates. This method is designed to minimize error by assigning weights to different measurements, making it suitable for noisy or uncertain datasets.
+
+- **Key Features:**
+  - Weighted optimization for robust estimation
+  - Applicable to positioning, localization, and sensor fusion
+  - Suitable for real-time or post-processed data
+
+
+---
+
+# Project Tasks Overview
+
+This repository contains MATLAB implementations supporting advanced navigation and data filtering processes. The primary components include sky region masking and weighted position estimation integrated with integrity monitoring.
+
+---
+
+## Task 2: Sky Mask Filtering
+
+- **File:** `applySkymaskFilter.m`  
+- **Function:** `applySkymaskFilter`  
+- **Description:**  
+  This function is a critical component of the **postnavigation phase**. It applies a sky mask to isolate the sky region from input data such as satellite azimuth and elevation angles collected during navigation. By filtering out non-sky elements, it helps produce **cleaner and more relevant data** for downstream processing.
+
+- **Key Features:**
+  - Masking and filtering of irrelevant environmental components
+  - Enhances the reliability of subsequent computations
+
+- **Role in Workflow:**
+  The filtered sky data output from this function is used to inform and refine subsequent tasks—particularly the WLS positioning process in Task 3.
+
+---
+
+## Task 3: Weighted Least Squares (WLS) Positioning & RAIM Integration
+
+- **File:** `WLSPos.m`  
+- **Functionality:**
+  - Executes **Weighted Least Squares (WLS)** calculations
+  - Integrates **Receiver Autonomous Integrity Monitoring (RAIM)** to evaluate and ensure the reliability of positioning results
+
+- **Description:**  
+  The `WLSPos.m` file is responsible for optimizing position estimates by leveraging WLS algorithms. It operates on data refined through the `applySkymaskFilter` process, allowing for more accurate and noise-resilient calculations. The inclusion of the **RAIM algorithm** further strengthens system integrity by detecting and mitigating potential positioning errors.
+
+- **Key Features:**
+  - Built-in RAIM for integrity monitoring and error detection
+
+- **Role in Workflow:**
+  This function is typically called **after sky masking**, using the cleaner input data to enhance accuracy and integrity in the computed navigation solution.
+
 
 
 # Task 4: Challenges of LEO Communication Satellites for GNSS Navigation
