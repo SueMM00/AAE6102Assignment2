@@ -145,7 +145,7 @@ Chatroom link (if any): https://chatgpt.com/share/e/68021efb-3e70-800a-85ba-f346
 - **File:** `applySkymaskFilter.m`  
 - **Function:** `applySkymaskFilter`  
 - **Description:**  
-  This function is a critical component of the **postnavigation phase**. It applies a sky mask to isolate the sky region from input data such as satellite azimuth and elevation angles collected during navigation. By filtering out non-sky elements, it helps produce **cleaner and more relevant data** for downstream processing.
+  This function is a critical component of the **postnavigation phase**. This function is designed based on the method of Non-Line-of-Sight (NLOS). It applies a sky mask to isolate the sky region from input data such as satellite azimuth and elevation angles collected during navigation. By filtering out non-sky elements, it helps produce **cleaner and more relevant data** for downstream processing.
 
 - **Key Features:**
   - Masking and filtering of irrelevant environmental components
