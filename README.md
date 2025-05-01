@@ -139,7 +139,6 @@ Chatroom link (if any): https://chatgpt.com/share/e/68021efb-3e70-800a-85ba-f346
 
 ---
 
-
 # Task 2: Sky Mask Filtering
   
 - **Description:**  
