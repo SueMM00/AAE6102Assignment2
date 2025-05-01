@@ -141,9 +141,7 @@ Chatroom link (if any): https://chatgpt.com/share/e/68021efb-3e70-800a-85ba-f346
 
 
 # Task 2: Sky Mask Filtering
-
-- **File:** `applySkymaskFilter.m`  
-- **Function:** `applySkymaskFilter`  
+  
 - **Description:**  
   This function is a critical component of the **postnavigation phase**. This function is designed based on the method of Non-Line-of-Sight (NLOS). It applies a sky mask to isolate the sky region from input data such as satellite azimuth and elevation angles collected during navigation. By filtering out non-sky elements, it helps produce **cleaner and more relevant data** for downstream processing.
 
@@ -161,13 +159,13 @@ Chatroom link (if any): https://chatgpt.com/share/e/68021efb-3e70-800a-85ba-f346
 
 # Task 3: Weighted Least Squares (WLS) Positioning & RAIM Integration
 
-- **File:** `WLSPos.m`  
+- **File:** `leastSquarePos.m`  
 - **Functionality:**
   - Executes **Weighted Least Squares (WLS)** calculations
   - Integrates **Receiver Autonomous Integrity Monitoring (RAIM)** to evaluate and ensure the reliability of positioning results
 
 - **Description:**  
-  The `WLSPos.m` file is responsible for optimizing position estimates by leveraging WLS algorithms. It operates on data refined through the `applySkymaskFilter` process, allowing for more accurate and noise-resilient calculations. The inclusion of the **RAIM algorithm** further strengthens system integrity by detecting and mitigating potential positioning errors.
+  The `leastSquarePos.m` file is responsible for optimizing position estimates by leveraging WLS algorithms. It operates on data refined through the `chi2_detector` process, allowing for more accurate and noise-resilient calculations. The inclusion of the **RAIM algorithm** further strengthens system integrity by detecting and mitigating potential positioning errors.
 
 - **Key Features:**
   - Built-in RAIM for integrity monitoring and error detection
